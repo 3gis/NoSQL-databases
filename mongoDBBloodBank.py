@@ -39,7 +39,6 @@ def mapReduceBloodHistory():
 from pymongo import MongoClient
 from bson.son import SON
 from bson.code import Code
-#client = MongoClient("mongodb+srv://fegTkwaevCqZQbte:Chn2TPj3vQbuB5fb@cluster0.ty2wk.mongodb.net/SkillDatabase?retryWrites=true&w=majority")
 client = MongoClient();
 db = client["BloodBankDatabase"];
 #AggregateBloodHistory();
