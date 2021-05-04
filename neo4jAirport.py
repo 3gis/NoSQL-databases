@@ -48,7 +48,6 @@ password        = "Iamapilot123"
 driver = GraphDatabase.driver(uri, auth=(userName, password))
 connection = driver.session()
 
-# CQL to query all the universities present in the graph
 query = "MATCH (N) detach DELETE(N)"
 
 connection.run(query)
